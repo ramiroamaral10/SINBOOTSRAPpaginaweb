@@ -1,0 +1,26 @@
+nav{
+    li{
+    list-style-type:none;
+    display: inline;
+    margin-left:15px ;
+    margin-right:15px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+/* alinear logo del header*/
+.alignLogo{
+    text-align:center;
+    
+    
+}
+/*alinear lista del header*/
+.alignListas{
+    text-align:center;
+    
+}
+/*arreglos de etiquetas a*/
+a{
+    text-decoration:none;
+    padding: 0px;
+    
+}

@@ -1,0 +1,171 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* arreglo h2 del main*/
+main{
+    div{
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+    
+}
+main{
+    div{
+        h3{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+p{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+/*h2 centrados de index y servicios */
+h2{
+    text-align: center;
+}
+.margenlistasservicios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+ul{
+    li{
+        p{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}
+/* imagen de fondo del main*/
+.gridbgimg{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "bgImg";
+}
+.bgImg{
+    background-image:url(../assets/img/mainfotoladrillo.jpg);
+    
+
+}
+/* centro ride del main del index*/
+
+.centrarRide{
+    text-align: center;
+}
+
+/*iframes de artistas border*/
+iframe{
+    border-width: 5px;
+    border-style: solid;
+}
+
+/*tamanio imagenes de nosotros*/
+
+.tamanioImgEstudio1Nosotros{
+    width: 800px;
+}
+.tamanioImgEstudio2Nosotros{
+    width: 800px;
+}
+/* listas de servicios*/
+.listasServicios{
+    list-style-type:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:violet
+}
+/*grid y felx pagina artistas*/
+.gridContainerArtistas{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "fotogabicentrado"
+    "nombregabicentrado"
+    "nombreezecentrado"
+    "fotoezecentrado"
+    "iframecentradogabi"
+    "nombrecanciontodocentrado"
+    "nombrecancionbuscocentrado"
+    "nombrecancionmemoriascentrado"
+    "iframeezecentrado";
+    
+
+}
+.fotogabicentrado{
+    grid-area: fotogabicentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombregabicentrado{
+    grid-area: nombregabicentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombreezecentrado{
+    grid-area: nombreezecentrado;
+    display: flex;
+    justify-content: center;
+}
+.fotoezecentrado{
+    grid-area: fotoezecentrado;
+    display: flex;
+    justify-content: center;
+}
+.iframecentradogabi{
+    grid-area: iframecentradegbi;
+    display: flex;
+    justify-content: center;
+}
+.nombrecanciontodocentrado{
+    grid-area: nombrecancionodocentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombrecancionbuscocentrado{
+    grid-area: nombrecancionbuscocentrado;
+    display: flex;
+    justify-content: center;
+}
+.nombrecancionmemoriascentrado{
+    grid-area: nombrecancionmemoriascentrado;
+    display: flex;
+    justify-content: center;
+}
+.iframeezecentrado{
+    grid-area: iframeezecentrado;
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    grid-area: main;
+}
+/*flex para index video adelanto centrado*/
+.flexvideocentrado{
+    display: flex;
+    justify-content: center;
+}
+/*flex para fotos centradas Nosotros*/
+.imagen1centradanosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.imagen2centradanosotros{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

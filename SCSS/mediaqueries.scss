@@ -1,0 +1,303 @@
+/*mediaquerie artistas*/
+@media only screen and (max-width: 768px){
+    .gridmobileartistas{
+        display: grid;
+        grid-template-areas:
+        "header" 
+        "main" 
+        "footer" 
+        ;
+        
+    }
+    header{
+        grid-area: header;
+        
+        
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .gridContainerArtistas{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "gridnavimgheader"
+        "fotogabicentrado"
+        "nombregabicentrado"
+        "nombreezecentrado"
+        "fotoezecentrado"
+        "iframecentradogabi"
+        "nombrecanciontodocentrado"
+        "nombrecancionbuscocentrado"
+        "nombrecancionmemoriascentrado"
+        "iframeezecentrado"
+        ;
+        
+    
+    }
+    .fotogabicentrado{
+        grid-area: fotogabicentrado;
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+    }
+    .nombregabicentrado{
+        grid-area: nombregabicentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombreezecentrado{
+        grid-area: nombreezecentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .fotoezecentrado{
+        grid-area: fotoezecentrado;
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+        width: 100%;
+        
+    }
+    .iframecentradogabi{
+        grid-area: iframecentradegbi;
+        display: flex;
+        justify-content: center;
+        max-width: 100vw;
+    }
+    .nombrecanciontodocentrado{
+        grid-area: nombrecancionodocentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombrecancionbuscocentrado{
+        grid-area: nombrecancionbuscocentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .nombrecancionmemoriascentrado{
+        grid-area: nombrecancionmemoriascentrado;
+        display: flex;
+        justify-content: center;
+    }
+    .iframeezecentrado{
+        grid-area: iframeezecentrado;
+        display: flex;
+        max-width: 400px;
+        justify-content: center;
+        width: 100%;
+        
+    }
+.alignLogo{
+    width: 100vw;
+}
+.imglogo{
+    text-align:center
+}
+.tamanioImgEze{
+    text-align: center;
+    width: 70%;
+}
+.tamanioImgGabi{
+    text-align: center;
+    width: 70%;
+
+}
+.iframeezeartistascentrado{
+    display: flex;
+        max-width: 400px;
+        justify-content: center;
+
+}
+.overFlowEze{
+    width: 100%;
+    
+
+}
+}
+/*mediaquerie contacto formulario*/
+@media only screen and (max-width: 768px){
+
+    .gridmobilecontacto{
+        display: grid;
+        grid-template-areas:
+        "header" 
+        "main" 
+        "footer";
+        
+        
+    }
+    header{
+        grid-area: header;
+        
+        
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .form-contacto{
+        max-width: 300px;
+    }
+}
+
+
+
+.form-contacto{
+    align-items: center;
+}
+
+.form-contacto {
+    width: 400px;
+    background: violet;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-contacto{
+    h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+} 
+
+.controles {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.form-contacto p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-contacto {
+    a {
+        color: white;
+        text-decoration: none;
+      }
+  } 
+
+.form-contacto {
+    a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+} 
+  
+  .form-contacto .botones {
+    width: 100%;
+    background: #24303c;
+    
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+/*mediaquerie nosotros*/
+@media only screen and (max-width: 768px){
+    .gridmobilenosotros{
+        display: grid;
+        grid-template-areas:
+        "header" 
+        "main" 
+        "footer" 
+        ;
+        
+    }
+    header{
+        grid-area: header;
+        
+        
+    }
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .titulonosotroscentrado{
+        display: flex;
+        justify-content: center;
+    }
+    .gridmainnosotros{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "titulonosotroscentrado"
+        "parrafogridnosotros"
+        "tamanioImgEstudio1Nosotros"
+        "tamanioImgEstudio2Nosotros"
+    }
+    .titulonosotroscentrado{
+        grid-area: titulonosotroscentrado;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    .parrafogridnosotros{
+        grid-area: parrafogridnosotros;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+    .tamanioImgEstudio1Nosotros{
+        grid-area:tamanioImgEstudio1Nosotros ;
+        display: flex;
+        justify-content: center;
+        max-width: 370px;
+    }
+    .tamanioImgEstudio2Nosotros{
+        grid-area: tamanioImgEstudio2Nosotros;
+        display: flex;
+        justify-content: center;
+        max-width: 370px;
+    }
+}

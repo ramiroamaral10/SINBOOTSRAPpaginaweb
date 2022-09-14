@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Gate Contacto</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilocontacto.css">
     <link rel="stylesheet" href="../css/estilo.css">
     
@@ -15,9 +16,9 @@
     <div class="gridmobilecontacto">
         <header class="bgColor"> 
             <div class="alignLogo">
-                <img src="../assets/img/logogate.jpg" alt="logo pagina web">
+                <img data-aos="fade-up" src="../assets/img/logogate.jpg" alt="logo pagina web">
             </div>
-            <nav class="alignListas" >
+            <nav data-aos="zoom-in" class="alignListas" >
                 <ul> <b>
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
@@ -29,13 +30,13 @@
             
         </header>
         <main class="centradoformulariomain gridbgimg bgImg" >
-            <section class="form-contacto">
-                <h4>Contacto</h4>
-                <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre Completo">
-                <input class="controles" type="number" name="edad" id="edad" placeholder="Ingrese su Edad">
-                <input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <section  data-aos="flip-left"  class="form-contacto">
+                <h4  data-aos="flip-right">Contacto</h4>
+                <input  data-aos="flip-right" class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre Completo">
+                <input  data-aos="flip-right" class="controles" type="number" name="edad" id="edad" placeholder="Ingrese su Edad">
+                <input  data-aos="flip-right" class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
                 <label for="Comentarios">Comentarios</label> 
-                <textarea class="centrartextarea" name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+                <textarea  data-aos="flip-right" class="centrartextarea" name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
                
                 <input class="botones" type="submit" value="Enviar">
                 
@@ -51,8 +52,12 @@
                 </ul>
             </nav>
                 
-
         </footer>
-    </div>    
+    </div> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>   
 </body>
 </html>
