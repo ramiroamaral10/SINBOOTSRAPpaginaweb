@@ -157,15 +157,14 @@ main{
     display: flex;
     justify-content: center;
 }
-/*flex para fotos centradas Nosotros*/
+/*flex para fotos centradas Nosotros USO EXTEND*/
+
 .imagen1centradanosotros{
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 .imagen2centradanosotros{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+    @extend .imagen1centradanosotros;
     margin-bottom: 40px;
 }

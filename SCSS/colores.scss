@@ -1,20 +1,40 @@
 $bgcolorheader:violet;
 .bgColor{background-color: $bgcolorheader;}
 
-$colordeA: black;
-a{color: $colordeA;}
-
-$colordeh1main:violet;
-h1{color: $colordeh1main;}
-
-$colordeh2main:violet;
-main div h2{color: $colordeh2main;}
-
-$colrodeh3main:violet;
-main div h3{color: $colordeh2main;}
-
-$colordep:white;
-p{color: $colordep;}
-
 $colorbgdelform:violet;
 .bgColorForm{background-color: $colorbgdelform;}
+
+/*mapas y map get*/
+
+$mapah1:(
+    colorh1:violet
+);
+
+h1{
+    color:map-get($mapah1,colorh1);
+}
+
+$mapaA:(
+    colorA:black
+);
+a{
+    color:map-get($mapaA,colorA);
+}
+$mapah2:(
+    colorh2:violet
+);
+main div h2{
+    color:map-get($mapah2,colorh2);
+}
+$mapah3:(
+    colorh3:violet
+);
+main div h3{
+    color: map-get($mapah3,colorh3);
+}
+$mapap:(
+    colorp:white
+);
+p{
+    color: map-get($mapap,colorp);
+}

@@ -1,11 +1,15 @@
 .bgColor {
   background-color: violet; }
 
-a {
-  color: black; }
+.bgColorForm {
+  background-color: violet; }
 
+/*mapas y map get*/
 h1 {
   color: violet; }
+
+a {
+  color: black; }
 
 main div h2 {
   color: violet; }
@@ -15,9 +19,6 @@ main div h3 {
 
 p {
   color: white; }
-
-.bgColorForm {
-  background-color: violet; }
 
 * {
   margin: 0%;
@@ -168,16 +169,13 @@ main {
   display: flex;
   justify-content: center; }
 
-/*flex para fotos centradas Nosotros*/
-.imagen1centradanosotros {
+/*flex para fotos centradas Nosotros USO EXTEND*/
+.imagen1centradanosotros, .imagen2centradanosotros {
   display: flex;
   justify-content: center;
   margin-top: 40px; }
 
 .imagen2centradanosotros {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
   margin-bottom: 40px; }
 
 /* tamanio imagenes*/

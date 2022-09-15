@@ -2,13 +2,17 @@
     text-align: center;
     
 }
-.bgColorForm{
-background-color: violet;
-border-width: 5px;
-border-color: white;
-border-style: solid;
-max-width: 400px; 
-display: flex;
-justify-content: center;   
 
+@mixin propiedadesformulario($bgcolor,$borderwidth,$bordercolor,$borderstyle,$maxwidth,$displaylex,$justifycontent){
+    background-color: $bgcolor;
+    border-width: $borderwidth;
+    border-color: $bordercolor;
+    border-style: $borderstyle;
+    max-width: $maxwidth;
+    display: $displaylex;
+    justify-content: $justifycontent;
+}
+
+.bgColorForm{
+    @include propiedadesformulario(violet ,5px ,white ,solid ,400px ,flex ,center )
 }
